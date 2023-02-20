@@ -53,3 +53,8 @@ upcars.fuel = "Dizel";
 context.Update(upcars); 
 
 context.Save();
+
+var delcar = context.GetAll().FirstOrDefault(delcar =>delcar.model == "Cadette" );
+context.Delete(delcar);
+
+context.Save();
