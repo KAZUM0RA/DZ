@@ -52,6 +52,7 @@ public class CarContext : IContext<Car>
 
     public IEnumerable<Car> GetAll()
     {
+        
         return _car;
 
     }

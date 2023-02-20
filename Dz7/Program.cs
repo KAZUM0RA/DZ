@@ -28,3 +28,7 @@ context.Create(new Car
     year = 2009,
 });
 
+
+var Allcars = context.GetAll();
+foreach (var cars in Allcars)
+Console.WriteLine($"{cars.markName}\n{cars.model}\n{cars.year}\n" );
