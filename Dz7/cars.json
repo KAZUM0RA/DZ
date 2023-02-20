@@ -1,0 +1,37 @@
+[
+    {
+        "Id": "f4dc788e-0ed4-4f68-af6c-c8105e63bf69",
+        "CreatedAt": "0001-01-01T00:00:00",
+        "markName": "Ford",
+        "model": "Cadette",
+        "year": 1984
+    },
+    {
+        "Id": "2727b881-8aa2-4f85-bb89-f845e9701c80",
+        "CreatedAt": "0001-01-01T00:00:00",
+        "markName": "Opel",
+        "model": "Astra",
+        "year": 2013
+    },
+    {
+        "Id": "0b07e6e0-892f-445c-946b-7400511bd527",
+        "CreatedAt": "0001-01-01T00:00:00",
+        "markName": "Jeep",
+        "model": "Classic",
+        "year": 2001
+    },
+    {
+        "Id": "6b58e250-5792-4bc0-97f7-8ada698d496b",
+        "CreatedAt": "0001-01-01T00:00:00",
+        "markName": "Fiat",
+        "model": "Doblo",
+        "year": 2009
+    },
+    {
+        "Id": "f6851909-fa77-4748-8604-e60c50f48b8b",
+        "CreatedAt": "0001-01-01T00:00:00",
+        "markName": "Ford ",
+        "model": "Mondeo",
+        "year": 2000
+    }
+]
