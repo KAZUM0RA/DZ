@@ -1,4 +1,4 @@
-﻿using VpuDotnet.Entities;
+using VpuDotnet.Entities;
 using VpuDotnet.Contexts;
 using System.Text.Json;
 
@@ -45,7 +45,7 @@ context.Save();
 //     year = 2000,
 //     fuel = "Petrol"
 // });
-context.Save();
+// context.Save();
 var upcars  = context.GetAll().FirstOrDefault(upcars =>upcars.model == "Mondeo");
 
 upcars.fuel = "Dizel";
@@ -58,3 +58,4 @@ var delcar = context.GetAll().FirstOrDefault(delcar =>delcar.model == "Cadette" 
 context.Delete(delcar);
 
 context.Save();
+

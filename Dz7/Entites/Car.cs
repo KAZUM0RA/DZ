@@ -7,4 +7,5 @@ public class Car : IEntity
     public string? model { get; set; }
     public int year { get; set; }
     public string? fuel {get; set;}
+
 }
