@@ -5,6 +5,6 @@ public class Car : IEntity
     public DateTime CreatedAt { get; set; } // время создания 
     public string? markName { get; set; }
     public string? model { get; set; }
-    public int? year { get; set; }
-
+    public int year { get; set; }
+    public string? fuel {get; set;}
 }
